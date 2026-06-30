@@ -9,8 +9,8 @@ app.use(cors());
 app.use(express.json());
 
 const razorpay = new Razorpay({
-  key_id: 'rzp_test_T4HAHoXuQOMzpn',
-  key_secret: 'nR5YWf8glg9cSedJqKj30P5E'
+  key_id: 'rzp_live_T7rpyol8chYI2V',
+  key_secret: 'BZH0ouHtlceupIGk841LwgZh'
 });
 
 const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTrRUJLznG-1edIxnwH1EHmfpuWhaPosDKF-1_xokoub9IGWEz_3JlMYOLw6DVgI-Tx830hyojfVmcd/pub?output=csv";
